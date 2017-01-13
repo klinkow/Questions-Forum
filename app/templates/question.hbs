@@ -1,10 +1,10 @@
 <h1>Welcome to the {{#link-to 'index'}}Questions Forum{{/link-to}}</h1>
 <br><br>
-<h2>Questions:</h2>
+<h2>{{question.title}}</h2>
+<p>by -{{question.author}}-</p>
 <br>
 <ul>
   {{#each model as |question|}}
-    <h4>{{#link-to 'question' question.id}}{{question.title}}{{/link-to}}</h4>
-    <p>by -{{question.author}}-</p>
+    <h4>{{question.answer}}</h4>
   {{/each}}
 </ul>
