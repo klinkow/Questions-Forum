@@ -1,8 +1,9 @@
 <h1>Welcome to the {{#link-to 'index'}}Questions Forum{{/link-to}}</h1>
 <br><br>
-<h2>{{question.title}}</h2>
-<p>by -{{question.author}}-</p>
+<h2>{{model.title}}</h2>
+<p>by -{{model.author}}-</p>
 <br>
+<h2>Answers:</h2>
 <ul>
   {{#each model.answers as |answer|}}
     <h4>{{answer.text}}</h4>

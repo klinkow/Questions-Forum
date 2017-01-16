@@ -1,5 +1,6 @@
 <li>
   <h4>{{#link-to 'question' question.id}}{{question.title}}{{/link-to}}</h4>
   <p>by -{{question.author}}-</p>
+  {{update-question question=question update="update"}}
   <button {{action 'delete' question}}>Delete Question</button>
 </li>
