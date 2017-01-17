@@ -10,6 +10,7 @@
   {{#each model.answers as |answer|}}
     <h4>{{answer.text}}</h4>
     <p>by -{{answer.author}}-</p>
+    <button {{action 'delete' answer}}>Delete Answer</button>
     <br>
   {{/each}}
 </ul>

@@ -9,18 +9,18 @@
   "answers": [{
     "text": "There is no meaning and one day you will realize that when you die.",
     "author": "Lucifer",
-    "question": "0"
+    "question": 0
   }, {
     "text":"The pursuit of happiness",
     "author": "John Stuart Mill",
-    "question": "0"
+    "question": 0
   }, {
     "text":"Because I said so",
     "author": "Mom",
-    "question": "1"
+    "question": 1
   }, {
     "text":"Because someone painted the bottum of the oceans blue",
     "author": "Miss Guided",
-    "question": "1"
+    "question": 1
   }]
 }
