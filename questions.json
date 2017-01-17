@@ -1,28 +1,22 @@
 { "questions": [{
     "title": "What is the meaning of life?",
-    "author": "Mortal Being",
-    "answers": {
-      "a1":{
-        "text": "There is no meaning and one day you will realize that when you die.",
-        "author": "Lucifer"
-      },
-      "a2":{
-        "text":"The pursuit of happiness",
-        "author": "John Stuart Mill"
-      }
-    }
-  }, {
+    "author": "Mortal Being"
+    }, {
     "title": "Why is the sky blue?",
-    "author": "Child man",
-    "answers": {
-      "a1":{
-        "text":"Because I said so",
-        "author": "Mom"
-      },
-      "a2":{
-        "text":"Because someone painted the bottum of the oceans blue",
-        "author": "Miss Guided"
-      }
-    }
+    "author": "Child man"
+  }],
+
+  "answers": [{
+    "text": "There is no meaning and one day you will realize that when you die.",
+    "author": "Lucifer"
+  }, {
+    "text":"The pursuit of happiness",
+    "author": "John Stuart Mill"
+  }, {
+    "text":"Because I said so",
+    "author": "Mom"
+  }, {
+    "text":"Because someone painted the bottum of the oceans blue",
+    "author": "Miss Guided"
   }]
 }
